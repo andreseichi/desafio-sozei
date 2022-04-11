@@ -13,7 +13,7 @@ export const Container = styled.div`
   border: 1px solid var(--darkest-white);
   border-radius: 5px;
 
-  padding: 14px;
+  padding: 0.875rem;
   min-width: 400px;
 `;
 
@@ -28,7 +28,7 @@ export const Input = styled.input<InputProps>`
   background: transparent;
   border: none;
 
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   letter-spacing: 0.4px;
   line-height: 26px;

@@ -56,7 +56,7 @@ export const ButtonsWrapper = styled.div`
 export const ButtonCustom = styled(Button)<ButtonCustomProps>`
   width: 122px;
 
-  padding: 14px 0;
+  padding: 0.875rem 0;
 
   background-color: ${(props) =>
     props.secondary ? 'var(--most-lightest-blue)' : 'var(--blue)'};

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.button`
-  padding: 14px 26px;
+  padding: 0.875rem 1.625rem;
   color: var(--white);
   background-color: var(--blue);
 
@@ -9,7 +9,7 @@ export const Container = styled.button`
   align-items: center;
   justify-content: center;
 
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 0.36px;

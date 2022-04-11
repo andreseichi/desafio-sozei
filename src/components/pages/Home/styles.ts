@@ -14,22 +14,27 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  max-width: 920px;
-  margin: 80px auto 0 auto;
+  max-width: 57.5rem;
+  margin: 5rem auto 0 auto;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    margin: 0 auto;
+  }
 `;
 
 export const Title = styled.h1`
-  font-size: 42px;
+  font-size: 2.625rem;
   letter-spacing: 0.84px;
   line-height: 50px;
 `;
 
 export const Heading = styled.h2`
-  font-size: 36px;
+  font-size: 2.25rem;
   letter-spacing: 0.72px;
   line-height: 40px;
 
-  margin-top: 20px;
+  margin-top: 1.25rem;
 `;
 
 export const Header = styled.div`
@@ -37,7 +42,8 @@ export const Header = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  margin-top: 40px;
+  margin-top: 2.5rem;
+  width: 100%;
 `;
 
 export const SearchWrapper = styled.div`
@@ -69,9 +75,9 @@ export const ToolsContainer = styled.div`
   align-items: center;
   justify-content: center;
 
-  margin-top: 20px;
+  margin-top: 1.25rem;
 
   .tool + .tool {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 `;

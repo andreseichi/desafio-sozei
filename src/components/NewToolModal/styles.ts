@@ -37,9 +37,9 @@ export const Container = styled.form`
     border-radius: 5px;
     color: var(--ink);
 
-    padding: 14px;
+    padding: 0.875rem;
 
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     letter-spacing: 0.4px;
     line-height: 26px;

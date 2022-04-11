@@ -17,7 +17,7 @@ export const Container = styled.div`
   background-color: var(--white);
   box-shadow: 0px 5px 7px #0000000d;
 
-  padding: 20px;
+  padding: 1.25rem;
   width: 750px;
 `;
 
@@ -33,7 +33,7 @@ export const Title = styled.a.attrs<TitleProps>(({ link }) => ({
   href: link,
   target: '_blank',
 }))<TitleProps>`
-  font-size: 20px;
+  font-size: 1.25rem;
   letter-spacing: 0.4px;
   line-height: 26px;
 `;
@@ -43,7 +43,7 @@ export const CloseWrapper = styled.div`
   align-items: center;
   justify-content: center;
 
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 24px;
   letter-spacing: 0.36px;
   color: var(--ink);
@@ -67,7 +67,7 @@ export const IconClose = styled(X)`
 export const Description = styled.div`
   display: flex;
 
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 24px;
   letter-spacing: 0.36px;
 
@@ -79,8 +79,8 @@ export const Tags = styled.div`
   align-items: center;
   justify-content: center;
 
-  margin-top: 12px;
-  gap: 8px;
+  margin-top: 0.625rem;
+  gap: 0.5rem;
 `;
 export const Tag = styled.div`
   display: flex;
