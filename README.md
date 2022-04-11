@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# Desafio Sozei
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <img alt="Yarn package" src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=fff">
+    <img alt="Yarn package" src="https://img.shields.io/badge/React-000?style=for-the-badge&logo=react">
+    <img alt="Typescript" src="https://img.shields.io/badge/Typescript-fff?style=for-the-badge&logo=typescript">
+    <img alt="Github repo size" src="https://img.shields.io/github/repo-size/andreseichi/desafio-sozei?style=for-the-badge">
+    <a href="https://github.com/andreseichi/desafio-sozei/commits"><img alt="Last commit" src="https://img.shields.io/github/last-commit/andreseichi/desafio-sozei?style=for-the-badge" /></a>
+</p>
 
-## Available Scripts
+<img src="screenshot.png" alt="Screenshot">
 
-In the project directory, you can run:
+> Aplicação React para mostrar lista de ferramentas úteis, com interatividade para adição e remoção de ferramentas
 
-### `yarn start`
+## 🚀 How to use the project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 🛹 Clone the front-end repo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`git clone https://github.com/andreseichi/desafio-sozei`
 
-### `yarn test`
+### 🛹 Clone the back-end repo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`https://github.com/sozei-ti/challenge-fake-api-master`
 
-### `yarn build`
+### 📒 Acess the back-end repo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`cd challenge-fake-api-master`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🧭 Install all dependencies with npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm install`
 
-### `yarn eject`
+### 🖥 Start the server
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`npx json-server db.json`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 📒 Acess the front-end repo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`cd desafio-sozei`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 🧭 Install all dependencies with yarn
 
-## Learn More
+`yarn install`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🌎 Run it
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`yarn start`
